@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect AI Course | DeepLearning.AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #6b7280;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #e5e7eb;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #ef4444;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .question {
+            display: none;
+        }
+
+        .question.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .question h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option {
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 18px 24px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+            color: #1a1a1a;
+            text-align: left;
+        }
+
+        .option strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .option-desc {
+            font-size: 0.875rem;
+            font-style: italic;
+            color: #6b7280;
+            line-height: 1.4;
+        }
+
+        .option:hover {
+            background: #fef2f2;
+            border-color: #ef4444;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .option.selected {
+            background: #fef2f2;
+            border-color: #ef4444;
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+        }
+
+        .multi-select .option {
+            position: relative;
+        }
+
+        .multi-select .option.selected {
+            background: #fee2e2;
+            border-color: #ef4444;
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
+        }
+
+        /* Tools Grid Layout */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 10px;
+        }
+
+        .tool-option {
+            padding: 14px 16px !important;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+        }
+
+        .partner-logo {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .tool-name {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .see-all-btn {
+            width: 100%;
+            margin-top: 15px;
+            padding: 12px;
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            color: #6b7280;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .see-all-btn:hover {
+            background: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        #seeAllArrow {
+            transition: transform 0.2s ease;
+            font-size: 0.8rem;
+        }
+
+        .see-all-btn.expanded #seeAllArrow {
+            transform: rotate(180deg);
+        }
+
+        .any-partner-btn {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 18px;
+            background: #ffffff;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            color: #374151;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .any-partner-btn:hover {
+            background: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        .any-partner-btn.selected {
+            background: #fee2e2;
+            border-color: #ef4444;
+            box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.15);
+        }
+
+        @media (max-width: 600px) {
+            .tools-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #dc2626;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            background: #9ca3af;
+        }
+
+        .btn-secondary {
+            background: #ffffff;
+            color: #374151;
+            border: 2px solid #e5e7eb;
+        }
+
+        .btn-secondary:hover {
+            background: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .result-card {
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .result-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+
+        .course-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+
+        .course-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 8px;
+            border: none;
+        }
+
+        .learn-points {
+            margin: 20px 0;
+        }
+
+        .learn-points h4 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: #374151;
+            font-weight: 600;
+        }
+
+        .learn-points ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .learn-points li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #6b7280;
+            line-height: 1.6;
+        }
+
+        .learn-points li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #ef4444;
+            font-weight: bold;
+        }
+
+        .enroll-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #ef4444;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            margin-top: 15px;
+        }
+
+        .enroll-btn:hover {
+            background: #dc2626;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+        .restart-btn {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 25px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Find Your Perfect AI Course</h1>
+            <p>Answer a few quick questions to get personalized recommendations</p>
+        </div>
+
+        <div class="card">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Question 1: Python Experience -->
+            <div class="question active" id="q1">
+                <h2>What's your experience with Python?</h2>
+                <div class="options">
+                    <div class="option" data-value="none">
+                        <strong>No experience</strong>
+                        <div class="option-desc">I'm just getting started</div>
+                    </div>
+                    <div class="option" data-value="beginner">
+                        <strong>Beginner</strong>
+                        <div class="option-desc">I can write simple scripts</div>
+                    </div>
+                    <div class="option" data-value="intermediate">
+                        <strong>Intermediate</strong>
+                        <div class="option-desc">I'm comfortable with libraries</div>
+                    </div>
+                    <div class="option" data-value="advanced">
+                        <strong>Advanced</strong>
+                        <div class="option-desc">I build complex applications</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2: Learning Goals -->
+            <div class="question" id="q2">
+                <h2>What would you like to learn? (Select all that apply)</h2>
+                <div class="options multi-select">
+                    <div class="option" data-value="coding">
+                        <strong>AI-Assisted Coding</strong>
+                        <div class="option-desc">Claude Code, Jupyter AI, Windsurf</div>
+                    </div>
+                    <div class="option" data-value="prompting">
+                        <strong>Prompting</strong>
+                        <div class="option-desc">ChatGPT, Llama, Prompt Engineering</div>
+                    </div>
+                    <div class="option" data-value="foundations">
+                        <strong>Foundational ML Concepts</strong>
+                        <div class="option-desc">Transformers, Embeddings, Attention Mechanisms</div>
+                    </div>
+                    <div class="option" data-value="building">
+                        <strong>AI Applications</strong>
+                        <div class="option-desc">RAG, Chatbots, Search, LangChain</div>
+                    </div>
+                    <div class="option" data-value="agents">
+                        <strong>AI Agents</strong>
+                        <div class="option-desc">Multi-Agent Systems, CrewAI, LangGraph</div>
+                    </div>
+                    <div class="option" data-value="specialized">
+                        <strong>Special Topics</strong>
+                        <div class="option-desc">Voice AI, Fine-Tuning, Quantization</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 3: Tools & Frameworks -->
+            <div class="question" id="q3">
+                <h2>Which companies or technologies are you interested in learning about?</h2>
+
+                <button type="button" class="any-partner-btn option" data-value="any" id="anyPartnerBtn">
+                    Any Partner
+                </button>
+
+                <div class="options multi-select tools-grid" id="toolsOptions">
+                    <!-- Popular partners - always visible -->
+                    <div class="option tool-option" data-value="openai">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png" alt="OpenAI" class="partner-logo">
+                        <span class="tool-name">OpenAI</span>
+                    </div>
+                    <div class="option tool-option" data-value="meta">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/Meta.png" alt="Meta" class="partner-logo">
+                        <span class="tool-name">Meta</span>
+                    </div>
+                    <div class="option tool-option" data-value="google">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Google-Square-Icon.jpg" alt="Google" class="partner-logo">
+                        <span class="tool-name">Google</span>
+                    </div>
+                    <div class="option tool-option" data-value="anthropic">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/Anthropic-Square-Logo.jpg" alt="Anthropic" class="partner-logo">
+                        <span class="tool-name">Anthropic</span>
+                    </div>
+                    <div class="option tool-option" data-value="langchain">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png" alt="LangChain" class="partner-logo">
+                        <span class="tool-name">LangChain</span>
+                    </div>
+                    <div class="option tool-option" data-value="huggingface">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png" alt="Hugging Face" class="partner-logo">
+                        <span class="tool-name">Hugging Face</span>
+                    </div>
+                    <div class="option tool-option" data-value="microsoft">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/microsoft-2.png" alt="Microsoft" class="partner-logo">
+                        <span class="tool-name">Microsoft</span>
+                    </div>
+                    <div class="option tool-option" data-value="llamaindex">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/llamaindex.jpeg" alt="LlamaIndex" class="partner-logo">
+                        <span class="tool-name">LlamaIndex</span>
+                    </div>
+
+                    <!-- Additional partners - hidden by default -->
+                    <div class="option tool-option additional-tool" data-value="aws" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/aws.jpeg" alt="AWS" class="partner-logo">
+                        <span class="tool-name">AWS</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="chroma" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/01/Chroma.png" alt="Chroma" class="partner-logo">
+                        <span class="tool-name">Chroma</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="cohere" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/Cohere.png" alt="Cohere" class="partner-logo">
+                        <span class="tool-name">Cohere</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="crewai" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg" alt="crewAI" class="partner-logo">
+                        <span class="tool-name">crewAI</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="databricks" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Databricks-Square-Logo.jpg" alt="Databricks" class="partner-logo">
+                        <span class="tool-name">Databricks</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="haystack" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/08/VsE1HZyf_400x400.png" alt="Haystack" class="partner-logo">
+                        <span class="tool-name">Haystack</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="mistral" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/04/mistral-ai.webp" alt="Mistral AI" class="partner-logo">
+                        <span class="tool-name">Mistral AI</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="mongodb" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/MongoDB-SquareLogo.png" alt="MongoDB" class="partner-logo">
+                        <span class="tool-name">MongoDB</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="neo4j" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/XgVmwEQy_400x400.jpg" alt="Neo4j" class="partner-logo">
+                        <span class="tool-name">Neo4j</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="pinecone" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/01/pinecone.png" alt="Pinecone" class="partner-logo">
+                        <span class="tool-name">Pinecone</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="predibase" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/05/QUvd03Ad_400x400.png" alt="Predibase" class="partner-logo">
+                        <span class="tool-name">Predibase</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="qdrant" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/09/qdrant-logo-square.png" alt="Qdrant" class="partner-logo">
+                        <span class="tool-name">Qdrant</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="redis" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/11/kxNqq_Gc_400x400.jpg" alt="Redis" class="partner-logo">
+                        <span class="tool-name">Redis</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="replit" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/03/Replit-Square-logo.jpg" alt="Replit" class="partner-logo">
+                        <span class="tool-name">Replit</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="snowflake" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/3-XUmcR_400x400.png" alt="Snowflake" class="partner-logo">
+                        <span class="tool-name">Snowflake</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="unstructured" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/04/unstructured.png" alt="Unstructured" class="partner-logo">
+                        <span class="tool-name">Unstructured</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="weaviate" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/weaviate.png" alt="Weaviate" class="partner-logo">
+                        <span class="tool-name">Weaviate</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="weights-biases" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/weights-and-biases.png" alt="Weights & Biases" class="partner-logo">
+                        <span class="tool-name">Weights & Biases</span>
+                    </div>
+                    <div class="option tool-option additional-tool" data-value="windsurf" style="display: none;">
+                        <img src="https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/02/Windsurf-Square-logo.jpg" alt="Windsurf" class="partner-logo">
+                        <span class="tool-name">Windsurf</span>
+                    </div>
+                </div>
+
+                <button type="button" class="see-all-btn" id="seeAllToolsBtn">
+                    <span id="seeAllText">See All Partners</span>
+                    <span id="seeAllArrow">▼</span>
+                </button>
+            </div>
+
+            <!-- Question 4: Time Commitment -->
+            <div class="question" id="q4">
+                <h2>How much time do you want to invest?</h2>
+                <div class="options">
+                    <div class="option" data-value="any">
+                        <strong>Any Duration</strong>
+                    </div>
+                    <div class="option" data-value="short">
+                        <strong>Up to 1 Hour</strong>
+                    </div>
+                    <div class="option" data-value="medium">
+                        <strong>Up to 2 Hours</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div class="results" id="results"></div>
+
+            <!-- Navigation -->
+            <div class="button-group" id="navigation">
+                <button class="btn btn-secondary" id="backBtn" style="display: none;">Back</button>
+                <button class="btn btn-primary" id="nextBtn" disabled>Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="recommendation_engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,1528 @@
+[
+  {
+    "slug": "semantic-caching-for-ai-agents",
+    "url": "https://www.deeplearning.ai/short-courses/semantic-caching-for-ai-agents/",
+    "title": "Semantic Caching for AI Agents",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  14 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Tyler Hutcherson, Iliya Zhechev",
+    "partner": "Redis",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/11/kxNqq_Gc_400x400.jpg",
+    "what_youll_learn": [
+      "Understand how semantic caching reduces inference cost and latency by reusing model responses based on meaning instead of exact text.",
+      "Evaluate cache performance with metrics like hit rate, precision, and latency, and enhance it using techniques such as cross-encoders and LLM validation.",
+      "Build a faster AI agent by integrating semantic caching, minimize redundant calls, and deliver faster responses as the cache warms up."
+    ]
+  },
+  {
+    "slug": "jupyter-ai-coding-in-notebooks",
+    "url": "https://www.deeplearning.ai/short-courses/jupyter-ai-coding-in-notebooks/",
+    "title": "Jupyter AI: AI Coding in Notebooks",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "44 Minutes",
+    "video_lessons": "5",
+    "code_examples": "3",
+    "instructor": "Andrew Ng and Brian Granger",
+    "partner": "Project Jupyter",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Jupyter-square-logo.jpg",
+    "what_youll_learn": [
+      "Use Jupyter AI to generate code, debug errors, and get explanations—all without leaving your notebook environment.",
+      "Build AI applications from scratch, including a book research assistant and a stock data analysis workflow, using Jupyter AI.",
+      "Apply AI coding best practices to guide Jupyter AI with the right context to successfully build your projects."
+    ]
+  },
+  {
+    "slug": "governing-ai-agents",
+    "url": "https://www.deeplearning.ai/short-courses/governing-ai-agents/",
+    "title": "Governing AI Agents",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  30 Minutes",
+    "video_lessons": "9",
+    "code_examples": "",
+    "instructor": "Amber Roberts",
+    "partner": "Databricks",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Databricks-Square-Logo.jpg",
+    "what_youll_learn": [
+      "Explore the four pillars of agent governance: lifecycle management, risk management, security, and observability.",
+      "Apply governance to a data analysis agent: restrict the agent’s access to sensitive data and grant it access to only the data it needs.",
+      "Add observability to track the agent’s inputs, outputs, and decisions to ensure transparency and enable debugging."
+    ]
+  },
+  {
+    "slug": "building-live-voice-agents-with-googles-adk",
+    "url": "https://www.deeplearning.ai/short-courses/building-live-voice-agents-with-googles-adk/",
+    "title": "Building Live Voice Agents with Google’s ADK",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "1 Hour  15 Minutes",
+    "video_lessons": "9",
+    "code_examples": "5",
+    "instructor": "Lavi Nigam, Sita Lakshmi Sangameswaran",
+    "partner": "Google",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/10/Google-Square-Icon.jpg",
+    "what_youll_learn": [
+      "Build real-time voice agents with Google’s Agent Development Kit (ADK) that can carry natural, real-time conversations while connecting to external tools and data.",
+      "Design multi-agent systems that use memory, tools, and orchestration patterns to coordinate specialized agents like planners, researchers, and writers.",
+      "Take agents to production by adding guardrails, persistent memory, automated evaluations, and review methods for deploying on Google Cloud’s Vertex AI Agent Engine."
+    ]
+  },
+  {
+    "slug": "building-and-evaluating-data-agents",
+    "url": "https://www.deeplearning.ai/short-courses/building-and-evaluating-data-agents/",
+    "title": "Building and Evaluating Data Agents",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  59 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Anupam Datta, Josh Reini",
+    "partner": "Snowflake",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/3-XUmcR_400x400.png",
+    "what_youll_learn": [
+      "Build a data agent using a multi-agent workflow: design a planner, a plan executor, and specialized sub-agents to connect to data sources.",
+      "Trace and evaluate: measure the quality of the agent’s final answer, and the alignment of the agent’s goal, plan, and action.",
+      "Improve the agent’s performance: update the agent’s prompt, and add inline evaluations that the agent can use during runtime to adjust its plan."
+    ]
+  },
+  {
+    "slug": "build-ai-apps-with-mcp-server-working-with-box-files",
+    "url": "https://www.deeplearning.ai/short-courses/build-ai-apps-with-mcp-server-working-with-box-files/",
+    "title": "Build AI Apps with MCP Servers: Working with Box Files",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "36 Minutes",
+    "video_lessons": "7",
+    "code_examples": "3",
+    "instructor": "Ben Kus",
+    "partner": "Box",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/Box-Square-Logo.png",
+    "what_youll_learn": [
+      "Build an LLM-powered app that processes invoice files, and extracts fields such as client name, total amount and purchased products, and generates a summary report for each client.",
+      "Connect the app to the Box MCP server to access tools such as folder and files listing, and text extraction, to avoid manual downloads and remove custom text extraction.",
+      "Orchestrate a three-agent system consisting of files agent, extraction agent and an orchestrator, built using Google’s ADK and communicating using the A2A (Agent2Agent) protocol."
+    ]
+  },
+  {
+    "slug": "knowledge-graphs-for-ai-agent-api-discovery",
+    "url": "https://www.deeplearning.ai/short-courses/knowledge-graphs-for-ai-agent-api-discovery/",
+    "title": "Knowledge Graphs for AI Agent API Discovery",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  14 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Pavithra G K, Lars Heling",
+    "partner": "SAP",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/09/So7KyLnr_400x400.jpg",
+    "what_youll_learn": [
+      "Construct a knowledge graph: Transform API specifications into a structured graph, then connect previously isolated APIs through business process data.",
+      "Improve API discovery: Do semantic retrieval, and then use business process information from the knowledge graph to discover missing prerequisite APIs and their proper calling sequence.",
+      "Build the agent: Create an agent that uses the knowledge graph to discover and execute APIs to carry out real tasks while following the correct process sequence."
+    ]
+  },
+  {
+    "slug": "agentic-knowledge-graph-construction",
+    "url": "https://www.deeplearning.ai/short-courses/agentic-knowledge-graph-construction/",
+    "title": "Agentic Knowledge Graph Construction",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "3 Hours  18 Minutes",
+    "video_lessons": "12",
+    "code_examples": "8",
+    "instructor": "Andreas Kollegger",
+    "partner": "Neo4j",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/XgVmwEQy_400x400.jpg",
+    "what_youll_learn": [
+      "Design specialized agents that identify the user’s goal, and suggest what nodes and relationships to extract from relevant structured and unstructured data.",
+      "Implement the multi-agent system using Google’s ADK to orchestrate the specialized agents and output the graph schemas for structured and unstructured data.",
+      "Construct the graphs based on the proposed schemas and connect them to obtain the complete knowledge graph."
+    ]
+  },
+  {
+    "slug": "claude-code-a-highly-agentic-coding-assistant",
+    "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/",
+    "title": "Claude Code: A Highly Agentic Coding Assistant",
+    "difficulty": "Intermediate",
+    "difficulty_score": 2,
+    "duration": "1 Hour  50 Minutes",
+    "video_lessons": "10",
+    "code_examples": "",
+    "instructor": "Elie Schoppik",
+    "partner": "Anthropic",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/08/Anthropic-Square-Logo.jpg",
+    "what_youll_learn": [
+      "Use Claude code to explore, develop, test, refactor, and debug codebases.",
+      "Extend the capabilities of Claude Code with MCP servers such as Playwright and Figma MCP servers.",
+      "Apply Claude Code best practices to three projects: exploring and developing the codebase of a RAG chatbot, refactoring a Jupyter notebook for e-commerce data and transforming it into a dashboard, and building a web app from a Figma mockup."
+    ]
+  },
+  {
+    "slug": "post-training-of-llms",
+    "url": "https://www.deeplearning.ai/short-courses/post-training-of-llms/",
+    "title": "Post-training of LLMs",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "1 Hour  16 Minutes",
+    "video_lessons": "9",
+    "code_examples": "3",
+    "instructor": "Banghua Zhu",
+    "partner": "University of Washington, NexusFlow",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/07/qDcb-jqA_400x400.jpg",
+    "what_youll_learn": [
+      "Understand when and why to use post-training methods like Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Online Reinforcement Learning.",
+      "Learn the concepts underlying the three post-training methods of SFT, DPO, and Online RL, their common use-cases, and how to curate high-quality data to effectively train a model using each method.",
+      "Download a pre-trained model and implement post-training pipelines to turn a base model into an instruct model, change the identity of a chat assistant, and improve a model’s math capabilities."
+    ]
+  },
+  {
+    "slug": "acp-agent-communication-protocol",
+    "url": "https://www.deeplearning.ai/short-courses/acp-agent-communication-protocol/",
+    "title": "ACP: Agent Communication Protocol",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  51 Minutes",
+    "video_lessons": "12",
+    "code_examples": "9",
+    "instructor": "Sandi Besen, Nicholas Renotte",
+    "partner": "IBM Research's BeeAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/06/BeeAI-logo.png",
+    "what_youll_learn": []
+  },
+  {
+    "slug": "building-with-llama-4",
+    "url": "https://www.deeplearning.ai/short-courses/building-with-llama-4/",
+    "title": "Building with Llama 4",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  0 Minutes",
+    "video_lessons": "9",
+    "code_examples": "6",
+    "instructor": "Amit Sangani",
+    "partner": "Meta",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/Meta.png",
+    "what_youll_learn": [
+      "Get hands-on with Llama 4 family of models, understand its Mixture-of-Experts (MOE) architecture, and how to build applications with its official API.",
+      "Apply Llama 4’s capabilities across multi-image reasoning, image grounding to identify objects and their bounding boxes, and querying over long-context texts of up to 1 million tokens.",
+      "Use Llama 4’s prompt optimization tool to automatically refine system prompts and its synthetic data kit to create high-quality datasets for fine-tuning."
+    ]
+  },
+  {
+    "slug": "orchestrating-workflows-for-genai-applications",
+    "url": "https://www.deeplearning.ai/short-courses/orchestrating-workflows-for-genai-applications/",
+    "title": "Orchestrating Workflows for GenAI Applications",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "1 Hour  28 Minutes",
+    "video_lessons": "11",
+    "code_examples": "7",
+    "instructor": "Kenten Danas, Tamara Fingerlin",
+    "partner": "Astronomer",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/06/Astronomer-square-logo.jpg",
+    "what_youll_learn": [
+      "Orchestrate a RAG prototype using Airflow: transform your code into pipelines consisting of modular tasks and schedule them using time-based and data-aware scheduling.",
+      "Apply dynamic task mapping to run tasks efficiently in parallel and automatically adapt to new data sources.",
+      "Build robust pipelines by adding automatic retries and failure notifications to handle errors gracefully."
+    ]
+  },
+  {
+    "slug": "dspy-build-optimize-agentic-apps",
+    "url": "https://www.deeplearning.ai/short-courses/dspy-build-optimize-agentic-apps/",
+    "title": "DSPy: Build and Optimize Agentic Apps",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "49 Minutes",
+    "video_lessons": "6",
+    "code_examples": "3",
+    "instructor": "Chen Qian",
+    "partner": "Databricks",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/06/PneUlcjM_400x400.jpg",
+    "what_youll_learn": [
+      "Learn the fundamentals of DSPy and how to use its signature and module-based programming model to build modular, traceable, and debuggable GenAI agentic applications.",
+      "Build agentic applications by chaining DSPy modules like Predict, ChainOfThought, and ReAct, and use MLflow to trace and debug your programs.",
+      "Optimize your GenAI apps with DSPy Optimizer by automating prompt tuning and improving few-shot examples to improve answer accuracy and consistency."
+    ]
+  },
+  {
+    "slug": "reinforcement-fine-tuning-llms-grpo",
+    "url": "https://www.deeplearning.ai/short-courses/reinforcement-fine-tuning-llms-grpo/",
+    "title": "Reinforcement Fine-Tuning LLMs with GRPO",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "1 Hour  23 Minutes",
+    "video_lessons": "10",
+    "code_examples": "7",
+    "instructor": "Travis Addair, Arnav Garg",
+    "partner": "Predibase",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/05/QUvd03Ad_400x400.png",
+    "what_youll_learn": [
+      "Learn the foundations of reinforcement learning and how to use the Group Relative Policy Optimization (GRPO) algorithm to improve reasoning in large language models.",
+      "Design effective reward functions, and learn how rewards are converted into advantages to steer models toward high-quality behavior across multiple use cases.",
+      "Learn to use LLM as a Judge for subjective tasks, overcome reward hacking with penalty functions, and calculate the loss function in GRPO."
+    ]
+  },
+  {
+    "slug": "mcp-build-rich-context-ai-apps-with-anthropic",
+    "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+    "title": "MCP: Build Rich-Context AI Apps with Anthropic",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "1 Hour  38 Minutes",
+    "video_lessons": "11",
+    "code_examples": "7",
+    "instructor": "Elie Schoppik",
+    "partner": "Anthropic",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/01/XP8gyBaY_400x400.jpg",
+    "what_youll_learn": [
+      "Explore how MCP standardizes access to tools and data for AI applications, its underlying architecture, and how it simplifies the integration of new tools and connections to external systems (e.g., GitHub repos, Google Docs, local files).",
+      "Build and deploy an MCP server that provides tools, resources, and prompts, and add it to the configuration of AI applications, such as Claude Desktop, to extend them.",
+      "Build an MCP-compatible application that hosts multiple MCP clients, each maintaining 1-to-1 connection to an MCP server."
+    ]
+  },
+  {
+    "slug": "building-ai-voice-agents-for-production",
+    "url": "https://www.deeplearning.ai/short-courses/building-ai-voice-agents-for-production/",
+    "title": "Building AI Voice Agents for Production",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "50 Minutes",
+    "video_lessons": "7",
+    "code_examples": "2",
+    "instructor": "Russ d’Sa, Shayne Parmelee, Nedelina Teneva",
+    "partner": "LiveKit, RealAvatar",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/05/6_pfIdxk_400x400.png",
+    "what_youll_learn": [
+      "Understand the core architecture of voice agents, including the trade-offs between modular pipelines and real-time APIs, and how components like STT, LLMs, and TTS work together.",
+      "Build and deploy a voice agent that handles speech input, generates LLM responses, and replies using custom voices while managing latency and user interruptions.",
+      "Measure and optimize latency across your voice pipeline, and apply strategies to make your agent feel more natural, responsive, and scalable in real-world settings."
+    ]
+  },
+  {
+    "slug": "building-code-agents-with-hugging-face-smolagents",
+    "url": "https://www.deeplearning.ai/short-courses/building-code-agents-with-hugging-face-smolagents/",
+    "title": "Building Code Agents with Hugging Face smolagents",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "44 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Thomas Wolf, Aymeric Roucher",
+    "partner": "Hugging Face",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png",
+    "what_youll_learn": [
+      "Understand the architecture and benefits of code agents that write code to perform tasks, compare them to traditional tool-calling agents, and learn when to use each approach.",
+      "Build and deploy secure code agents using Hugging Face’s smolagents, including techniques for sandboxing and safe execution of LLM-generated code.",
+      "Design, monitor, and evaluate single and multi-agent systems capable of handling tasks like web browsing, data extraction, and multi-step reasoning."
+    ]
+  },
+  {
+    "slug": "building-ai-browser-agents",
+    "url": "https://www.deeplearning.ai/short-courses/building-ai-browser-agents/",
+    "title": "Building AI Browser Agents",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "55 Minutes",
+    "video_lessons": "8",
+    "code_examples": "3",
+    "instructor": "Div Garg, Naman Garg",
+    "partner": "AGI Inc",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/04/lI0DrQz7_400x400.jpg",
+    "what_youll_learn": [
+      "Learn the fundamentals of autonomous web agents, what they are, how they work, their limitations, and the decision-making strategies taken to optimize their performance.",
+      "Build autonomous web agents that can perform tasks such as finding, scraping, and summarizing a webpage, filling out forms, and signing up for newsletters.",
+      "Explore the AgentQ framework, which uses a combination of Monte Carlo Tree Search (MCTS), self-critique mechanism, and Direct Preference Optimization (DPO) to teach agents to self-correct."
+    ]
+  },
+  {
+    "slug": "getting-structured-llm-output",
+    "url": "https://www.deeplearning.ai/short-courses/getting-structured-llm-output/",
+    "title": "Getting Structured LLM Output",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  11 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Will Kurt, Cameron Pfiffer",
+    "partner": "DotTxt",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/03/DotTxt-square-logo.jpg",
+    "what_youll_learn": [
+      "Get an overview of structured output generation, its importance, and the different approaches to generating them.",
+      "Build a social media agent using structured output and learn how to use re-prompting libraries like instructor.",
+      "Understand the concepts behind constrained decoding and how the LLM logits are modified to get a particular output structure."
+    ]
+  },
+  {
+    "slug": "vibe-coding-101-with-replit",
+    "url": "https://www.deeplearning.ai/short-courses/vibe-coding-101-with-replit/",
+    "title": "Vibe Coding 101 with Replit",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  44 Minutes",
+    "video_lessons": "7",
+    "code_examples": "",
+    "instructor": "Michele Catasta, Matt Palmer",
+    "partner": "Replit",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/03/Replit-Square-logo.jpg",
+    "what_youll_learn": [
+      "Build and share two applications—a website performance analyzer and a voting app—while using an AI coding agent to debug, customize, and strengthen your coding skills.",
+      "Learn the principles of agentic code development and skills to effectively build, host, and share your apps with Replit coding agents and assistants.",
+      "Use product requirement documents, wireframes, and good prompting practices to prototype, debug, and iterate your applications."
+    ]
+  },
+  {
+    "slug": "long-term-agentic-memory-with-langgraph",
+    "url": "https://www.deeplearning.ai/short-courses/long-term-agentic-memory-with-langgraph/",
+    "title": "Long-Term Agentic Memory with LangGraph",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  4 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Harrison Chase",
+    "partner": "LangChain",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Learn how memory works and how the three types of memory – semantic, episodic, and procedural – are used in agentic workflows.",
+      "Build a personal email agent with routing, writing, scheduling tools to automatically ignore, respond to, or notify about incoming emails.",
+      "Add long-term memory to your agent by adding facts, user preferences, and evolving system prompts to a memory store that can be searched for on-going interactions."
+    ]
+  },
+  {
+    "slug": "event-driven-agentic-document-workflows",
+    "url": "https://www.deeplearning.ai/short-courses/event-driven-agentic-document-workflows/",
+    "title": "Event-Driven Agentic Document Workflows",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "59 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Laurie Voss",
+    "partner": "LlamaIndex",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/llamaindex.jpeg",
+    "what_youll_learn": [
+      "Learn to build event-driven workflows with complex branching, looping logic, and concurrent executions.",
+      "Build an event-driven agentic workflow that parses forms, retrieves relevant information from a source document using RAG, and returns answers to the form’s fields as structured outputs.",
+      "Incorporate human-in-the-loop to a document workflow to provide feedback to the agent through text and voice instructions."
+    ]
+  },
+  {
+    "slug": "build-apps-with-windsurfs-ai-coding-agents",
+    "url": "https://www.deeplearning.ai/short-courses/build-apps-with-windsurfs-ai-coding-agents/",
+    "title": "Build Apps with Windsurf’s AI Coding Agents",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  10 Minutes",
+    "video_lessons": "12",
+    "code_examples": "1",
+    "instructor": "Anshul Ramachandran",
+    "partner": "Windsurf",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/02/Windsurf-Square-logo.jpg",
+    "what_youll_learn": [
+      "Learn how to collaborate with AI agents to streamline coding workflows, generate and modify code across multiple files, and enhance development efficiency.",
+      "Understand how AI coding agents combine tool usage, context awareness, and human-action tracking to function effectively and get a deep dive into search and discovery as one of the main challenges of AI coding agents.",
+      "Use Windsurf to do real-world coding tasks, including debugging JavaScript code, updating an old large codebase, and building a Wikipedia analysis app that retrieves, processes, and visualizes data while learning to manage unexpected AI behavior."
+    ]
+  },
+  {
+    "slug": "evaluating-ai-agents",
+    "url": "https://www.deeplearning.ai/short-courses/evaluating-ai-agents/",
+    "title": "Evaluating AI Agents",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "2 Hours  16 Minutes",
+    "video_lessons": "15",
+    "code_examples": "6",
+    "instructor": "John Gilhuly, Aman Khan",
+    "partner": "Arize AI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/02/Eu7NHXss_400x400.jpg",
+    "what_youll_learn": [
+      "Learn how to add observability to your agent to gain insights into its steps and know how to debug it.",
+      "Learn how to set up evaluations for the agent components by preparing testing examples, choosing the appropriate evaluator (code-based or LLM-as-a-Judge), and identifying the right metrics.",
+      "Learn how to structure your evaluation into experiments to iterate on and improve the output quality and the path taken by your agent."
+    ]
+  },
+  {
+    "slug": "attention-in-transformers-concepts-and-code-in-pytorch",
+    "url": "https://www.deeplearning.ai/short-courses/attention-in-transformers-concepts-and-code-in-pytorch/",
+    "title": "Attention in Transformers: Concepts and Code in PyTorch",
+    "difficulty": "Beginner",
+    "difficulty_score": 5,
+    "duration": "1 Hour  6 Minutes",
+    "video_lessons": "11",
+    "code_examples": "3",
+    "instructor": "Josh Starmer",
+    "partner": "StatQuest",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/02/aOs7Ec0M_400x400.jpg",
+    "what_youll_learn": [
+      "Learn how the attention mechanism in LLMs helps convert base token embeddings into rich context-aware embeddings.",
+      "Understand the Query, Key, and Value matrices, what they are for, how to produce them, and how to use them in attention.",
+      "Learn the difference between self-attention, masked self-attention, and cross-attention, and how multi-head attention scales the algorithm."
+    ]
+  },
+  {
+    "slug": "how-transformer-llms-work",
+    "url": "https://www.deeplearning.ai/short-courses/how-transformer-llms-work/",
+    "title": "How Transformer LLMs Work",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  34 Minutes",
+    "video_lessons": "13",
+    "code_examples": "2",
+    "instructor": "Jay Alammar, Maarten Grootendorst",
+    "partner": "Jay Alammar, Maarten Grootendorst",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2025/02/Instructors-profile-picture-46.png",
+    "what_youll_learn": [
+      "Gain an understanding of the key components of transformers, including tokenization, embeddings, self-attention, and transformer blocks, to build a strong technical foundation.",
+      "Understand recent transformer improvements to the attention mechanism such as KV cache, multi-query attention, grouped query attention, and sparse attention.",
+      "Compare tokenization strategies used in modern LLMS and explore transformers in the Hugging Face Transformers library."
+    ]
+  },
+  {
+    "slug": "build-long-context-ai-apps-with-jamba",
+    "url": "https://www.deeplearning.ai/short-courses/build-long-context-ai-apps-with-jamba/",
+    "title": "Build Long-Context AI Apps with Jamba",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  4 Minutes",
+    "video_lessons": "9",
+    "code_examples": "4",
+    "instructor": "Chen Wang, Chen Almagor",
+    "partner": "AI21 labs",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/12/iQFn3YZ-_400x400.png",
+    "what_youll_learn": [
+      "Learn how the Jamba model integrates transformers and the Mamba architecture to efficiently process long contexts while maintaining quality.",
+      "Understand the training process for long context models, and the metrics used to evaluate their performance.",
+      "Gain hands-on experience applying Jamba to tasks such as processing large documents, tool-calling, and building large context RAG apps."
+    ]
+  },
+  {
+    "slug": "reasoning-with-o1",
+    "url": "https://www.deeplearning.ai/short-courses/reasoning-with-o1/",
+    "title": "Reasoning with o1",
+    "difficulty": "Intermediate",
+    "difficulty_score": 2,
+    "duration": "1 Hour  24 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Colin Jarvis",
+    "partner": "OpenAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png",
+    "what_youll_learn": [
+      "Learn about o1, what makes it work, how it performs, and the best scenarios to use it.",
+      "Learn how to prompt o1 effectively and when to delegate tasks to more cost-efficient, lower latency models.",
+      "Learn how o1 outperforms on coding and vision reasoning tasks, and how to apply meta-prompting to optimize your applications."
+    ]
+  },
+  {
+    "slug": "collaborative-writing-and-coding-with-openai-canvas",
+    "url": "https://www.deeplearning.ai/short-courses/collaborative-writing-and-coding-with-openai-canvas/",
+    "title": "Collaborative Writing and Coding with OpenAI Canvas",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "37 Minutes",
+    "video_lessons": "7",
+    "code_examples": "1",
+    "instructor": "Karina Nguyen",
+    "partner": "OpenAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png",
+    "what_youll_learn": [
+      "Learn to write and code more effectively with OpenAI Canvas, using features like targeted editing, in-line feedback, changing the reading level, final polish, reviewing code, and fixing bugs.",
+      "Learn how to build practical use cases like creating a game app, generating Python code from plot screenshots, and creating SQL databases from architecture images.",
+      "Gain knowledge of how GPT-4o was trained to bring the OpenAI Canvas features and functionalities to life."
+    ]
+  },
+  {
+    "slug": "building-an-ai-powered-game",
+    "url": "https://www.deeplearning.ai/short-courses/building-an-ai-powered-game/",
+    "title": "Building an AI-Powered Game",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "56 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Niki Birkner, Nick Walton",
+    "partner": "Together AI, AI Dungeon",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/11/QRmHmR_N_400x400.png",
+    "what_youll_learn": [
+      "Learn LLM app development by designing and developing a text-based AI game, creating immersive game worlds, characters, and storylines through hierarchical content generation.",
+      "Learn to implement game mechanics using AI to convert text data into structured JSON outputs, enabling features like an inventory detection system.",
+      "Learn to enforce safety and compliance for AI content creation, and create custom policies using Llama Guard."
+    ]
+  },
+  {
+    "slug": "safe-and-reliable-ai-via-guardrails",
+    "url": "https://www.deeplearning.ai/short-courses/safe-and-reliable-ai-via-guardrails/",
+    "title": "Safe and Reliable AI via Guardrails",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  32 Minutes",
+    "video_lessons": "10",
+    "code_examples": "7",
+    "instructor": "Shreya Rajpal",
+    "partner": "GuardrailsAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/11/oSR2R2Yd_400x400.jpg",
+    "what_youll_learn": [
+      "Learn the common failure modes of LLM-powered applications that guardrails can help mitigate, including hallucinations and revealing sensitive information.",
+      "Understand how AI guardrails validate and verify your applications with input and output guards, ensuring reliable and controlled interactions.",
+      "Add guardrails to a RAG-powered customer service chatbot to create a new layer of control of the applications behavior."
+    ]
+  },
+  {
+    "slug": "llms-as-operating-systems-agent-memory",
+    "url": "https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memory/",
+    "title": "LLMs as Operating Systems: Agent Memory",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  22 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Charles Packer, Sarah Wooders",
+    "partner": "Letta",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/11/6WsXU8qN_400x400-1.jpg",
+    "what_youll_learn": [
+      "Build agents with long-term, persistent memory using Letta to manage and edit context efficiently.",
+      "Learn how an LLM agent can act as an operating system to manage memory, autonomously optimizing context use.",
+      "Apply memory management to create adaptive, collaborative AI agents for real-world tasks like research and HR."
+    ]
+  },
+  {
+    "slug": "practical-multi-ai-agents-and-advanced-use-cases-with-crewai",
+    "url": "https://www.deeplearning.ai/short-courses/practical-multi-ai-agents-and-advanced-use-cases-with-crewai/",
+    "title": "Practical Multi AI Agents and Advanced Use Cases with crewAI",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "2 Hours  39 Minutes",
+    "video_lessons": "15",
+    "code_examples": "6",
+    "instructor": "João Moura",
+    "partner": "crewAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg",
+    "what_youll_learn": [
+      "Build agents that collaborate in complex workflows, integrating external tools and using different models to handle specific tasks efficiently.",
+      "Learn to evaluate and enhance your agents by conducting performance tests and providing human feedback to train and optimize their performance.",
+      "Create multi-agent systems to automate tasks, such as project planning, lead scoring, data reporting, and large-scale content creation."
+    ]
+  },
+  {
+    "slug": "serverless-agentic-workflows-with-amazon-bedrock",
+    "url": "https://www.deeplearning.ai/short-courses/serverless-agentic-workflows-with-amazon-bedrock/",
+    "title": "Serverless Agentic Workflows with Amazon Bedrock",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  34 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Mike Chambers",
+    "partner": "AWS",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/aws.jpeg",
+    "what_youll_learn": [
+      "Build and deploy scalable serverless agentic applications with Amazon Bedrock.",
+      "Integrate tools, code execution, and guardrails to manage agentic actions effectively.",
+      "Design responsible agents with safeguards to prevent malicious prompts and unintended outputs."
+    ]
+  },
+  {
+    "slug": "introducing-multimodal-llama-3-2",
+    "url": "https://www.deeplearning.ai/short-courses/introducing-multimodal-llama-3-2/",
+    "title": "Introducing Multimodal Llama 3.2",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  19 Minutes",
+    "video_lessons": "9",
+    "code_examples": "6",
+    "instructor": "Amit Sangani",
+    "partner": "Meta",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/Meta.png",
+    "what_youll_learn": [
+      "Explore the features of the new Llama 3.2 model, from image classification, vision reasoning to tool use.",
+      "Learn the details of Llama 3.2 prompting, tokenization, built-in and custom tool calling.",
+      "Gain knowledge of the Llama stack, which is a standardized interface for building AI applications."
+    ]
+  },
+  {
+    "slug": "retrieval-optimization-from-tokenization-to-vector-quantization",
+    "url": "https://www.deeplearning.ai/short-courses/retrieval-optimization-from-tokenization-to-vector-quantization/",
+    "title": "Retrieval Optimization: From Tokenization to Vector Quantization",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  33 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Kacper Łukawski",
+    "partner": "Qdrant",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/09/qdrant-logo-square.png",
+    "what_youll_learn": [
+      "Learn how tokenization works in large language and embedding models and how the tokenizer can affect the quality of your search.",
+      "Explore how different tokenization techniques including Byte-Pair Encoding, WordPiece, and Unigram are trained and work.",
+      "Understand how to measure the quality of your retrieval and how to optimize your search by adjusting HNSW parameters and vector quantizations."
+    ]
+  },
+  {
+    "slug": "ai-python-for-beginners",
+    "url": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+    "title": "AI Python for Beginners",
+    "difficulty": "Beginner",
+    "difficulty_score": 1,
+    "duration": "10 Hours  15 Minutes",
+    "video_lessons": "35",
+    "code_examples": "27",
+    "instructor": "Andrew Ng",
+    "partner": "DeepLearning.AI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png",
+    "what_youll_learn": [
+      "Learn Python programming fundamentals and how to integrate AI tools for data manipulation, analysis, and visualization.",
+      "Discover how Python can be applied in various domains such as business, marketing, and journalism to solve real-world problems and enhance efficiency through practical applications.",
+      "Leverage AI assistants to debug code, explain concepts, and enhance your learning, mirroring real-world software development practices."
+    ]
+  },
+  {
+    "slug": "large-multimodal-model-prompting-with-gemini",
+    "url": "https://www.deeplearning.ai/short-courses/large-multimodal-model-prompting-with-gemini/",
+    "title": "Large Multimodal Model Prompting with Gemini",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  58 Minutes",
+    "video_lessons": "8",
+    "code_examples": "",
+    "instructor": "Erwin Huizenga",
+    "partner": "Google Cloud",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png",
+    "what_youll_learn": [
+      "Learn state-of-the-art techniques for getting the most out of multimodal AI with Google’s Gemini model family.",
+      "Leverage the power of Gemini’s cross-modal attention to fuse information from text, images, and video for complex reasoning tasks.",
+      "Extend Gemini’s capabilities with external knowledge and live data via function calling and API integration."
+    ]
+  },
+  {
+    "slug": "building-ai-applications-with-haystack",
+    "url": "https://www.deeplearning.ai/short-courses/building-ai-applications-with-haystack/",
+    "title": "Building AI Applications with Haystack",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  25 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Tuana Çelik",
+    "partner": "Haystack",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/08/VsE1HZyf_400x400.png",
+    "what_youll_learn": [
+      "Learn how Haystack components, pipelines, and document stores can be used to build custom AI applications.",
+      "Build a RAG pipeline and extend its ability by creating custom components.",
+      "Use conditional branching, self-reflecting agents, and function calling to build complex pipelines and apps."
+    ]
+  },
+  {
+    "slug": "improving-accuracy-of-llm-applications",
+    "url": "https://www.deeplearning.ai/short-courses/improving-accuracy-of-llm-applications/",
+    "title": "Improving Accuracy of LLM Applications",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  41 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Sharon Zhou, Amit Sangani",
+    "partner": "AMD, formerly Lamini, Meta",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/In8IVKDB_400x400.png",
+    "what_youll_learn": [
+      "Understand development steps, from evaluation, through prompting, self-reflection, and fine-tuning, to improve your model’s reliability and accuracy.",
+      "Learn how memory tuning can increase your model performance by embedding facts into your model to reduce hallucination.",
+      "Use the Llama 3-8b model to build an LLM application that converts text to SQL with a custom schema."
+    ]
+  },
+  {
+    "slug": "ai-python-for-beginners",
+    "url": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
+    "title": "AI Python for Beginners",
+    "difficulty": "Beginner",
+    "difficulty_score": 1,
+    "duration": "10 Hours  15 Minutes",
+    "video_lessons": "35",
+    "code_examples": "27",
+    "instructor": "Andrew Ng",
+    "partner": "DeepLearning.AI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/deeplearning-ai.png",
+    "what_youll_learn": [
+      "Learn Python programming fundamentals and how to integrate AI tools for data manipulation, analysis, and visualization.",
+      "Discover how Python can be applied in various domains such as business, marketing, and journalism to solve real-world problems and enhance efficiency through practical applications.",
+      "Leverage AI assistants to debug code, explain concepts, and enhance your learning, mirroring real-world software development practices."
+    ]
+  },
+  {
+    "slug": "embedding-models-from-architecture-to-implementation",
+    "url": "https://www.deeplearning.ai/short-courses/embedding-models-from-architecture-to-implementation/",
+    "title": "Embedding Models: From Architecture to Implementation",
+    "difficulty": "Beginner",
+    "difficulty_score": 5,
+    "duration": "50 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Ofer Mendelevitch",
+    "partner": "Vectara",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/07/MlHtGTxp_400x400.jpg",
+    "what_youll_learn": [
+      "Gain an in-depth understanding of the architecture behind embedding models; and learn how to train and use them.",
+      "Learn how to use different embedding models such as Word2Vec and BERT in various semantic search systems.",
+      "Learn how to build and train dual encoder models using contrastive loss, enhancing the accuracy of question-answer retrieval applications."
+    ]
+  },
+  {
+    "slug": "intro-to-federated-learning",
+    "url": "https://www.deeplearning.ai/short-courses/intro-to-federated-learning/",
+    "title": "Federated Learning",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  8 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Daniel J. Beutel, Nicholas D. Lane",
+    "partner": "Flower Labs",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/07/fd58b70bf08ebd04681433b867e55d90f1a18a12.png",
+    "what_youll_learn": [
+      "Explore the components of federated learning systems and learn to customize, tune, and orchestrate them for better model training.",
+      "Leverage federated learning to enhance LLMs by effectively managing key privacy and efficiency challenges.",
+      "Learn how techniques like parameter-efficient fine-tuning and differential privacy are crucial for making federated learning secure and efficient."
+    ]
+  },
+  {
+    "slug": "pretraining-llms",
+    "url": "https://www.deeplearning.ai/short-courses/pretraining-llms/",
+    "title": "Pretraining LLMs",
+    "difficulty": "Beginner",
+    "difficulty_score": 5,
+    "duration": "1 Hour  19 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Sung Kim, Lucy Park",
+    "partner": "Upstage",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/07/upstageai_logo.jpeg",
+    "what_youll_learn": [
+      "Gain in-depth knowledge of the steps to pretrain an LLM, encompassing all the steps, from data preparation, to model configuration and performance assessment.",
+      "Explore various options for configuring your model’s architecture, including modifying Meta’s Llama models to create larger or smaller versions and initializing weights either randomly or from other models.",
+      "Learn innovative pretraining techniques like Depth Upscaling, which can reduce training costs by up to 70%."
+    ]
+  },
+  {
+    "slug": "prompt-compression-and-query-optimization",
+    "url": "https://www.deeplearning.ai/short-courses/prompt-compression-and-query-optimization/",
+    "title": "Prompt Compression and Query Optimization",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  39 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Richmond Alake",
+    "partner": "MongoDB",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/MongoDB-SquareLogo.png",
+    "what_youll_learn": [
+      "Combine vector search capabilities with traditional database operations to build efficient and cost-effective RAG applications.",
+      "Learn how to use pre-filtering, post-filtering, and projection techniques for faster query processing and optimized query output.",
+      "Use prompt compression techniques to reduce the length of prompts that are expensive to process in large-scale applications."
+    ]
+  },
+  {
+    "slug": "carbon-aware-computing-for-genai-developers",
+    "url": "https://www.deeplearning.ai/short-courses/carbon-aware-computing-for-genai-developers/",
+    "title": "Carbon Aware Computing for GenAI Developers",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  37 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Nikita Namjoshi",
+    "partner": "Google Cloud",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png",
+    "what_youll_learn": [
+      "Retrieve real-time data on global energy mixes and carbon intensity from the ElectricityMaps API. Identify power grids that produce electricity from low-carbon sources, such as hydro, nuclear, wind, and solar power.",
+      "Run a machine learning training job using low-carbon electricity by re-directing training tasks to cloud server locations selected based on their average and real-time carbon intensity measurements.",
+      "Analyze the carbon footprint of sample Google Cloud usage data, including machine learning training, inference, storage, and other API activities."
+    ]
+  },
+  {
+    "slug": "function-calling-and-data-extraction-with-llms",
+    "url": "https://www.deeplearning.ai/short-courses/function-calling-and-data-extraction-with-llms/",
+    "title": "Function-Calling and Data Extraction with LLMs",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "59 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Jiantao Jiao, Venkat Srinivasan",
+    "partner": "Nexusflow",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/Nexusflow.png",
+    "what_youll_learn": [
+      "Learn to extend LLMs with custom functionality via function-calling, enabling them to form calls to external functions.",
+      "Extract structured data from natural language inputs, making real-world data usable for analysis.",
+      "Build an end-to-end application that processes customer service transcripts using LLMs."
+    ]
+  },
+  {
+    "slug": "building-your-own-database-agent",
+    "url": "https://www.deeplearning.ai/short-courses/building-your-own-database-agent/",
+    "title": "Building Your Own Database Agent",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "58 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Adrian Gonzalez Sanchez",
+    "partner": "Microsoft",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/microsoft-2.png",
+    "what_youll_learn": [
+      "Interact with tabular data and SQL databases using natural language, enabling more efficient and accessible data analysis.",
+      "Gain hands-on experience with the Azure OpenAI Service, implementing techniques like Retrieval Augmented Generation (RAG) and function calling.",
+      "Use Azure OpenAI Service’s Assistants API, and test it with function calling and code interpreter features."
+    ]
+  },
+  {
+    "slug": "ai-agents-in-langgraph",
+    "url": "https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/",
+    "title": "AI Agents in LangGraph",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  32 Minutes",
+    "video_lessons": "9",
+    "code_examples": "6",
+    "instructor": "Harrison Chase, Rotem Weiss",
+    "partner": "LangChain, Tavily",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Learn about LangGraph’s components and how they enable the development, debugging, and maintenance of AI agents.",
+      "Integrate agentic search capabilities to enhance agent knowledge and performance.",
+      "Learn directly from LangChain founder Harrison Chase and Tavily founder Rotem Weiss."
+    ]
+  },
+  {
+    "slug": "ai-agentic-design-patterns-with-autogen",
+    "url": "https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/",
+    "title": "AI Agentic Design Patterns with AutoGen",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  25 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Chi Wang, Qingyun Wu",
+    "partner": "Microsoft, Penn State University",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/microsoft-2.png",
+    "what_youll_learn": [
+      "Use the AutoGen framework to build multi-agent systems with diverse roles and capabilities for implementing complex AI applications.",
+      "Implement agentic design patterns: Reflection, Tool use, Planning, and Multi-agent collaboration using AutoGen.",
+      "Learn directly from the creators of AutoGen, Chi Wang and Qingyun Wu."
+    ]
+  },
+  {
+    "slug": "introduction-to-on-device-ai",
+    "url": "https://www.deeplearning.ai/short-courses/introduction-to-on-device-ai/",
+    "title": "Introduction to On-Device AI",
+    "difficulty": "Beginner",
+    "difficulty_score": 1,
+    "duration": "59 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Krishna Sridhar",
+    "partner": "Qualcomm",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/qualcomm.jpeg",
+    "what_youll_learn": [
+      "Learn to deploy AI models on edge devices like smartphones, using their local compute power for faster and more secure inference.",
+      "Explore model conversion by, converting your PyTorch/TensorFlow models for device compatibility, and quantize them to achieve performance gains while reducing model size.",
+      "Learn about device integration, including runtime dependencies, and how GPU, NPU, and CPU compute unit utilization affect performance."
+    ]
+  },
+  {
+    "slug": "multi-ai-agent-systems-with-crewai",
+    "url": "https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/",
+    "title": "Multi AI Agent Systems with crewAI",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "2 Hours  41 Minutes",
+    "video_lessons": "18",
+    "code_examples": "7",
+    "instructor": "João Moura",
+    "partner": "crewAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/crewai.jpeg",
+    "what_youll_learn": [
+      "Exceed the performance of prompting a single LLM by designing and prompting a team of AI agents through natural language.",
+      "Use an open source library, crewAI, to automate repeatable, multi-step tasks like tailoring a resume to a job description; and automate business processes that are typically done by a group of people, like event planning.",
+      "By creating a team of AI agents, you can define a specific role, goal, and backstory for each agent, which breaks down complex multi-step tasks and assigns them to agents that are customized to perform those tasks."
+    ]
+  },
+  {
+    "slug": "building-multimodal-search-and-rag",
+    "url": "https://www.deeplearning.ai/short-courses/building-multimodal-search-and-rag/",
+    "title": "Building Multimodal Search and RAG",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  22 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Sebastian Witalec",
+    "partner": "Weaviate",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/weaviate.png",
+    "what_youll_learn": [
+      "Learn how multimodality works by implementing contrastive learning, and see how it can be used to build modality-independent embeddings for seamless any-to-any retrieval.",
+      "Build multimodal RAG systems that retrieve multimodal context and reason over it to generate more relevant answers.",
+      "Implement industry applications of multimodal search and build multi-vector recommender systems."
+    ]
+  },
+  {
+    "slug": "building-agentic-rag-with-llamaindex",
+    "url": "https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/",
+    "title": "Building Agentic RAG with LlamaIndex",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "44 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Jerry Liu",
+    "partner": "LlamaIndex",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/llamaindex.jpeg",
+    "what_youll_learn": [
+      "Learn how to build an agent that can reason over your documents and answer complex questions.",
+      "Build a router agent that can help you with Q&A and summarization tasks, and extend it to handle passing arguments to this agent.",
+      "Design a research agent that handles multi-documents and learn about different ways to debug and control this agent."
+    ]
+  },
+  {
+    "slug": "quantization-in-depth",
+    "url": "https://www.deeplearning.ai/short-courses/quantization-in-depth/",
+    "title": "Quantization in Depth",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "2 Hours  10 Minutes",
+    "video_lessons": "18",
+    "code_examples": "13",
+    "instructor": "Marc Sun, Younes Belkada",
+    "partner": "Hugging Face",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png",
+    "what_youll_learn": [
+      "Try out different variants of Linear Quantization, including symmetric vs. asymmetric mode, and different granularities like per tensor, per channel, and per group quantization.",
+      "Build a general-purpose quantizer in Pytorch that can quantize the dense layers of any open source model for up to 4x compression on dense layers.",
+      "Implement weights packing to pack four 2-bit weights into a single 8-bit integer."
+    ]
+  },
+  {
+    "slug": "prompt-engineering-for-vision-models",
+    "url": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision-models/",
+    "title": "Prompt Engineering for Vision Models",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  22 Minutes",
+    "video_lessons": "7",
+    "code_examples": "4",
+    "instructor": "Abby Morgan, Jacques Verré, Caleb Kaiser",
+    "partner": "Comet",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/04/comet.jpeg",
+    "what_youll_learn": [
+      "Prompt vision models with text, coordinates, and bounding boxes, and tune hyper-parameters like guidance scale, strength, and number of inference steps.",
+      "Replace parts of an image with generated content with in-painting, a technique that combines object detection, image segmentation, and image generation.",
+      "Fine-tune a diffusion model to have even more control over your image generation to create specific images, including your own, rather than generically generated images."
+    ]
+  },
+  {
+    "slug": "getting-started-with-mistral",
+    "url": "https://www.deeplearning.ai/short-courses/getting-started-with-mistral/",
+    "title": "Getting Started with Mistral",
+    "difficulty": "Beginner",
+    "difficulty_score": 1,
+    "duration": "52 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Sophia Yang",
+    "partner": "Mistral AI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/04/mistral-ai.webp",
+    "what_youll_learn": [
+      "Explore Mistral’s three open source models (Mistral 7B, Mixtral 8x7B, and the latest Mixtral 8x22B), and three commercial models (small, medium, and large), which Mistral provides access to via web interface and API calls.",
+      "Leverage Mistral’s JSON mode to generate LLM responses in a structured JSON format, enabling integration of LLM outputs into larger software applications.",
+      "Use Mistral’s API to call user-defined Python functions for tasks like web searches or retrieving text from databases, enhancing the LLM’s ability to find relevant information to answer user queries."
+    ]
+  },
+  {
+    "slug": "quantization-fundamentals-with-hugging-face",
+    "url": "https://www.deeplearning.ai/short-courses/quantization-fundamentals-with-hugging-face/",
+    "title": "Quantization Fundamentals with Hugging Face",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  4 Minutes",
+    "video_lessons": "7",
+    "code_examples": "3",
+    "instructor": "Younes Belkada, Marc Sun",
+    "partner": "Hugging Face",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png",
+    "what_youll_learn": [
+      "Learn how to compress models with the Hugging Face Transformers library and the Quanto library.",
+      "Learn about linear quantization, a simple yet effective method for compressing models.",
+      "Practice quantizing open source multimodal and language models."
+    ]
+  },
+  {
+    "slug": "preprocessing-unstructured-data-for-llm-applications",
+    "url": "https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/",
+    "title": "Preprocessing Unstructured Data for LLM Applications",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  12 Minutes",
+    "video_lessons": "8",
+    "code_examples": "5",
+    "instructor": "Matt Robinson",
+    "partner": "Unstructured",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/04/unstructured.png",
+    "what_youll_learn": [
+      "Learn to extract and normalize content from a wide variety of document types, such as PDFs, PowerPoints, Word, and HTML files, tables, and images to expand the information accessible to your LLM.",
+      "Enrich your content with metadata, enhancing retrieval augmented generation (RAG) results and supporting more nuanced search capabilities.",
+      "Explore document image analysis techniques like layout detection and vision and table transformers, and learn how to apply these methods to preprocess PDFs, images, and tables."
+    ]
+  },
+  {
+    "slug": "red-teaming-llm-applications",
+    "url": "https://www.deeplearning.ai/short-courses/red-teaming-llm-applications/",
+    "title": "Red Teaming LLM Applications",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  19 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Matteo Dora, Luca Martial",
+    "partner": "Giskard",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/03/giskard.png",
+    "what_youll_learn": [
+      "Learn to identify and evaluate vulnerabilities in large language model (LLM) applications.",
+      "Apply red teaming techniques from cybersecurity to ensure the safety and reliability of your LLM application.",
+      "Use an open source library from Giskard to help automate LLM red-teaming methods."
+    ]
+  },
+  {
+    "slug": "javascript-rag-web-apps-with-llamaindex",
+    "url": "https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/",
+    "title": "JavaScript RAG Web Apps with LlamaIndex",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "38 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Laurie Voss",
+    "partner": "LlamaIndex",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/llamaindex.jpeg",
+    "what_youll_learn": [
+      "Learn how to build a RAG application in JavaScript, and use an intelligent agent that discerns and selects from multiple data sources to answer your queries.",
+      "Build a full-stack web app with an interactive frontend component that interacts and chats with your data.",
+      "Learn how to persist your data, enable chatting with your data and make streaming responses possible, all implemented using the create-llama command-line tool."
+    ]
+  },
+  {
+    "slug": "efficiently-serving-llms",
+    "url": "https://www.deeplearning.ai/short-courses/efficiently-serving-llms/",
+    "title": "Efficiently Serving LLMs",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "2 Hours  30 Minutes",
+    "video_lessons": "9",
+    "code_examples": "7",
+    "instructor": "Travis Addair",
+    "partner": "Predibase",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/03/Predibase.png",
+    "what_youll_learn": [
+      "Learn how Large Language Models (LLMs) repeatedly predict the next token, and how techniques like KV caching can greatly speed up text generation.",
+      "Write code to efficiently serve LLM applications to a large number of users, and examine the tradeoffs between quickly returning the output of the model and serving many users at once.",
+      "Explore the fundamentals of Low Rank Adapters (LoRA) and see how Predibase builds their LoRAX framework inference server to serve multiple fine-tuned models at once."
+    ]
+  },
+  {
+    "slug": "knowledge-graphs-rag",
+    "url": "https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/",
+    "title": "Knowledge Graphs for RAG",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  54 Minutes",
+    "video_lessons": "9",
+    "code_examples": "6",
+    "instructor": "Andreas Kollegger",
+    "partner": "Neo4j",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/03/Untitled-design-53.png",
+    "what_youll_learn": [
+      "Use Neo4j’s query language Cypher to manage and retrieve data stored in knowledge graphs.",
+      "Write knowledge graph queries that find and format text data to provide more relevant context to LLMs for Retrieval Augmented Generation.",
+      "Build a question-answering system using Neo4j and LangChain to chat with a knowledge graph of structured text documents."
+    ]
+  },
+  {
+    "slug": "open-source-models-hugging-face",
+    "url": "https://www.deeplearning.ai/short-courses/open-source-models-hugging-face/",
+    "title": "Open Source Models with Hugging Face",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "2 Hours  3 Minutes",
+    "video_lessons": "16",
+    "code_examples": "13",
+    "instructor": "Maria Khalusova, Marc Sun, Younes Belkada",
+    "partner": "Hugging Face",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/hugging-face.png",
+    "what_youll_learn": [
+      "Find and filter open source models on Hugging Face Hub based on task, rankings, and memory requirements.",
+      "Write just a few lines of code using the transformers library to perform text, audio, image, and multimodal tasks.",
+      "Easily share your AI apps with a user-friendly interface or via API and run them on the cloud using Gradio and Hugging Face Spaces."
+    ]
+  },
+  {
+    "slug": "prompt-engineering-with-llama-2",
+    "url": "https://www.deeplearning.ai/short-courses/prompt-engineering-with-llama-2/",
+    "title": "Prompt Engineering with Llama 2 & 3",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  53 Minutes",
+    "video_lessons": "10",
+    "code_examples": "7",
+    "instructor": "Amit Sangani",
+    "partner": "Meta",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/02/Meta.png",
+    "what_youll_learn": [
+      "Learn best practices specific to prompting Llama 2 & 3 models.",
+      "Interact with Meta Llama 2 Chat, Code Llama, and Llama Guard models.",
+      "See how you can build safe, responsible AI applications using the Llama Guard model."
+    ]
+  },
+  {
+    "slug": "building-applications-vector-databases",
+    "url": "https://www.deeplearning.ai/short-courses/building-applications-vector-databases/",
+    "title": "Building Applications with Vector Databases",
+    "difficulty": "Beginner",
+    "difficulty_score": 5,
+    "duration": "1 Hour  13 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Tim Tully",
+    "partner": "Pinecone",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/01/pinecone.png",
+    "what_youll_learn": [
+      "Learn to create six exciting applications of vector databases and implement them using Pinecone.",
+      "Build a hybrid search app that combines both text and images for improved multimodal search results.",
+      "Learn how to build an app that measures and ranks facial similarity."
+    ]
+  },
+  {
+    "slug": "automated-testing-llmops",
+    "url": "https://www.deeplearning.ai/short-courses/automated-testing-llmops/",
+    "title": "Automated Testing for LLMOps",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "52 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Rob Zuber",
+    "partner": "CircleCI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/01/circle-ci.png",
+    "what_youll_learn": [
+      "Learn how LLM-based testing differs from traditional software testing and implement rules-based testing to assess your LLM application.",
+      "Build model-graded evaluations to test your LLM application using an evaluation LLM.",
+      "Automate your evals (rules-based and model-graded) using continuous integration tools from CircleCI."
+    ]
+  },
+  {
+    "slug": "llmops",
+    "url": "https://www.deeplearning.ai/short-courses/llmops/",
+    "title": "LLMOps",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  21 Minutes",
+    "video_lessons": "6",
+    "code_examples": "3",
+    "instructor": "Erwin Huizenga",
+    "partner": "Google Cloud",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png",
+    "what_youll_learn": [
+      "Adapt an open source pipeline that applies supervised fine-tuning on an LLM to better answer user questions.",
+      "Learn best practices, including versioning your data and your models, and pre-process large datasets inside a data warehouse.",
+      "Learn responsible AI by outputting safety scores on sub-categories of harmful content."
+    ]
+  },
+  {
+    "slug": "build-llm-apps-with-langchain-js",
+    "url": "https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/",
+    "title": "Build LLM Apps with LangChain.js",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "1 Hour  4 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Jacob Lee",
+    "partner": "LangChain",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Understand the fundamentals of using LangChain’s JavaScript library to orchestrate and chain different modules together.",
+      "Learn the basics of loading and preparing data to provide as context to effectively customize LLM generations.",
+      "Learn techniques to retrieve and present data to the LLM in useful ways for a conversational retrieval chain."
+    ]
+  },
+  {
+    "slug": "advanced-retrieval-for-ai",
+    "url": "https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/",
+    "title": "Advanced Retrieval for AI with Chroma",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "52 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Anton Troynikov",
+    "partner": "Chroma",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/01/Chroma.png",
+    "what_youll_learn": [
+      "Learn to recognize when queries are producing poor results.",
+      "Learn to use a large language model (LLM) to improve your queries.",
+      "Learn to fine-tune your embeddings with user feedback."
+    ]
+  },
+  {
+    "slug": "reinforcement-learning-from-human-feedback",
+    "url": "https://www.deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/",
+    "title": "Reinforcement Learning from Human Feedback",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "1 Hour  12 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Nikita Namjoshi",
+    "partner": "Google Cloud",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png",
+    "what_youll_learn": [
+      "Get a conceptual understanding of Reinforcement Learning from Human Feedback (RLHF), as well as the datasets needed for this technique",
+      "Fine-tune the Llama 2 model using RLHF with the open source Google Cloud Pipeline Components Library",
+      "Evaluate tuned model performance against the base model with evaluation methods"
+    ]
+  },
+  {
+    "slug": "building-evaluating-advanced-rag",
+    "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/",
+    "title": "Building and Evaluating Advanced RAG Applications",
+    "difficulty": "Beginner",
+    "difficulty_score": 4,
+    "duration": "1 Hour  55 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Jerry Liu and Anupam Datta",
+    "partner": "TruEra, LlamaIndex",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/11/truera.jpeg",
+    "what_youll_learn": [
+      "Learn methods like sentence-window retrieval and auto-merging retrieval, improving your RAG pipeline’s performance beyond the baseline.",
+      "Learn evaluation best practices to streamline your process, and iteratively build a robust system.",
+      "Dive into the RAG triad for evaluating the relevance and truthfulness of an LLM’s response:Context Relevance, Groundedness, and Answer Relevance."
+    ]
+  },
+  {
+    "slug": "quality-safety-llm-applications",
+    "url": "https://www.deeplearning.ai/short-courses/quality-safety-llm-applications/",
+    "title": "Quality and Safety for LLM Applications",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "2 Hours  6 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Bernease Herman",
+    "partner": "WhyLabs",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/11/whylabs.png",
+    "what_youll_learn": [
+      "Monitor and enhance security measures over time to safeguard your LLM applications.",
+      "Detect and prevent critical security threats like hallucinations, jailbreaks, and data leakage.",
+      "Explore real-world scenarios to prepare for potential risks and vulnerabilities."
+    ]
+  },
+  {
+    "slug": "vector-databases-embeddings-applications",
+    "url": "https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/",
+    "title": "Vector Databases: from Embeddings to Applications",
+    "difficulty": "Intermediate",
+    "difficulty_score": 4,
+    "duration": "55 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Sebastian Witalec",
+    "partner": "Weaviate",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/05/weaviate.png",
+    "what_youll_learn": [
+      "Build efficient, practical applications including hybrid and multilingual searches, for diverse industries.",
+      "Understand vector databases and use them to develop GenAI applications without needing to train or fine-tune an LLM yourself.",
+      "Learn to discern when best to apply a vector database to your application."
+    ]
+  },
+  {
+    "slug": "functions-tools-agents-langchain",
+    "url": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/",
+    "title": "Functions, Tools and Agents with LangChain",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "1 Hour  44 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Harrison Chase",
+    "partner": "LangChain",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Learn about the most recent advancements in LLM APIs.",
+      "Use LangChain Expression Language (LCEL), a new syntax to compose and customize chains and agents faster.",
+      "Apply these new capabilities by building up a conversational agent."
+    ]
+  },
+  {
+    "slug": "pair-programming-llm",
+    "url": "https://www.deeplearning.ai/short-courses/pair-programming-llm/",
+    "title": "Pair Programming with a Large Language Model",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  4 Minutes",
+    "video_lessons": "6",
+    "code_examples": "4",
+    "instructor": "Laurence Moroney",
+    "partner": "Google",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/09/Untitled-design-54.png",
+    "what_youll_learn": [
+      "Use LLMs to simplify your code and become a more productive software engineer",
+      "Reduce technical debt by explaining and documenting a complex existing code base",
+      "Get free access to the PaLM API for use throughout the course"
+    ]
+  },
+  {
+    "slug": "google-cloud-vertex-ai",
+    "url": "https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/",
+    "title": "Understanding and Applying Text Embeddings",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  24 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Nikita Namjoshi and Andrew Ng",
+    "partner": "Google Cloud",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/google-cloud.png",
+    "what_youll_learn": [
+      "Use text embeddings to capture the meaning of sentences and paragraphs",
+      "Apply text embeddings for tasks like text clustering, classification, and outlier detection",
+      "Use Google Cloud’s Vertex AI to build a question answering system"
+    ]
+  },
+  {
+    "slug": "microsoft-semantic-kernel",
+    "url": "https://www.deeplearning.ai/short-courses/microsoft-semantic-kernel/",
+    "title": "How Business Thinkers Can Start Building AI Plugins With Semantic Kernel",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  16 Minutes",
+    "video_lessons": "9",
+    "code_examples": "7",
+    "instructor": "John Maeda",
+    "partner": "Microsoft",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/microsoft-2.png",
+    "what_youll_learn": [
+      "Learn Microsoft’s open source orchestrator, the Semantic Kernel",
+      "Develop your business planning and analysis skills while leveraging AI tools",
+      "Advance your skills in LLMs by using memories, connectors, chains, and more"
+    ]
+  },
+  {
+    "slug": "finetuning-large-language-models",
+    "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/",
+    "title": "Finetuning Large Language Models",
+    "difficulty": "Intermediate",
+    "difficulty_score": 5,
+    "duration": "1 Hour  25 Minutes",
+    "video_lessons": "9",
+    "code_examples": "6",
+    "instructor": "Sharon Zhou",
+    "partner": "AMD, formerly Lamini",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/In8IVKDB_400x400.png",
+    "what_youll_learn": [
+      "Learn the fundamentals of finetuning a large language model (LLM).",
+      "Understand how finetuning differs from prompt engineering, and when to use both.",
+      "Get practical experience with real data sets, and how to use techniques for your own projects."
+    ]
+  },
+  {
+    "slug": "large-language-models-semantic-search",
+    "url": "https://www.deeplearning.ai/short-courses/large-language-models-semantic-search/",
+    "title": "Large Language Models with Semantic Search",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  12 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Jay Alammar, Luis Serrano",
+    "partner": "Cohere",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/Cohere.png",
+    "what_youll_learn": [
+      "Enhance keyword search using Cohere Rerank",
+      "Use embeddings to leverage dense retrieval, a powerful NLP tool",
+      "Evaluate your effectiveness for further optimization"
+    ]
+  },
+  {
+    "slug": "evaluating-debugging-generative-ai",
+    "url": "https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/",
+    "title": "Evaluating and Debugging Generative AI Models Using Weights and Biases",
+    "difficulty": "Intermediate",
+    "difficulty_score": 3,
+    "duration": "50 Minutes",
+    "video_lessons": "7",
+    "code_examples": "5",
+    "instructor": "Carey Phelps",
+    "partner": "Weights & Biases",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/08/weights-and-biases.png",
+    "what_youll_learn": [
+      "Learn to evaluate programs utilizing LLMs as well as generative image models using platform-independent tools",
+      "Instrument a training notebook, and add tracking, versioning, and logging",
+      "Implement monitoring and tracing of LLMs over time in complex interactions"
+    ]
+  },
+  {
+    "slug": "langchain-chat-with-your-data",
+    "url": "https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/",
+    "title": "LangChain: Chat with Your Data",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  8 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Harrison Chase",
+    "partner": "LangChain",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Learn directly from LangChain creator, Harrison Chase",
+      "Access over 80 unique loaders to handle accessing various data sources using LangChain",
+      "Build your own chatbot to chat directly with information from your own documents and data"
+    ]
+  },
+  {
+    "slug": "langchain-for-llm-application-development",
+    "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/",
+    "title": "LangChain for LLM Application Development",
+    "difficulty": "Beginner",
+    "difficulty_score": 3,
+    "duration": "1 Hour  38 Minutes",
+    "video_lessons": "8",
+    "code_examples": "6",
+    "instructor": "Harrison Chase, Andrew Ng",
+    "partner": "LangChain",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/langchain.png",
+    "what_youll_learn": [
+      "Learn LangChain directly from the creator of the framework, Harrison Chase",
+      "Apply LLMs to your proprietary data to build personal assistants and specialized chatbots",
+      "Use agents, chained calls, and memories to expand your use of LLMs"
+    ]
+  },
+  {
+    "slug": "chatgpt-prompt-engineering-for-developers",
+    "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+    "title": "ChatGPT Prompt Engineering for Developers",
+    "difficulty": "Beginner",
+    "difficulty_score": 2,
+    "duration": "1 Hour  30 Minutes",
+    "video_lessons": "9",
+    "code_examples": "7",
+    "instructor": "Isa Fulford, Andrew Ng",
+    "partner": "OpenAI",
+    "partner_image_url": "https://home-wordpress.deeplearning.ai/wp-content/uploads/2023/04/openai-1.png",
+    "what_youll_learn": [
+      "Learn prompt engineering best practices for application development",
+      "Discover new ways to use LLMs, including how to build your own custom chatbot",
+      "Gain hands-on practice writing and iterating on prompts using the OpenAI API"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Claude Code
+.claude/
+
+# Build/Data files that aren't needed for hosting
+*.csv
+*.py
+legacy/
+
+# Keep only the essentials for GitHub Pages
+!courses_data.json
