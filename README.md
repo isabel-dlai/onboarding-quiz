@@ -1,126 +1,56 @@
 # DeepLearning.AI Course Recommender
 
-A modern, interactive web application that recommends DeepLearning.AI short courses based on user preferences and experience level.
+An interactive quiz that recommends DeepLearning.AI short courses based on your experience and interests.
 
-## Features
+**🔗 [Try it now](https://isabel-dlai.github.io/onboarding-quiz/course_recommender.html)**
 
-- **Smart Recommendations**: Matches courses based on:
-  - Python programming experience
-  - Learning goals (coding, prompting, foundations, building apps, agents, specialized topics)
-  - Preferred tools and frameworks (LangChain, Hugging Face, Anthropic, etc.)
-  - Available time commitment
+## Overview
 
-- **Modern UI**:
-  - Clean, gradient-based design matching DeepLearning.AI's aesthetic
-  - Smooth animations and transitions
-  - Responsive design for all devices
-  - Progress tracking through questions
+This tool helps learners discover the right DeepLearning.AI courses by matching:
+- Python programming experience
+- Learning goals (coding, prompting, foundations, agents, etc.)
+- Preferred tools and frameworks
+- Available time commitment
 
-- **Comprehensive Course Data**: 84 short courses with:
-  - Course titles and descriptions
-  - Difficulty levels
-  - Duration and lesson counts
-  - Instructor information
-  - Learning outcomes
+The recommender includes **84 courses** with difficulty scores based on a systematic 5-dimensional rubric.
 
 ## Files
 
-- `course_recommender.html` - Main HTML interface
-- `recommendation_engine.js` - JavaScript recommendation logic
-- `courses_data.json` - Course data in JSON format
-- `short_courses_data.csv` - Original scraped course data
-- `scrape_short_courses.py` - Web scraper for updating course data
+- `course_recommender.html` - Main quiz application
+- `recommendation_engine.js` - Recommendation logic and UI
+- `courses_data.json` - Course database (84 courses)
+- `SCORING_RUBRIC.md` - Formal difficulty scoring rubric
+- `legacy/` - Archived scripts and data
 
-## How to Use
+## Local Development
 
-### Option 1: Local Development Server (Recommended)
+Open the HTML file with a local server:
 
-1. Start a local HTTP server:
-   ```bash
-   python3 -m http.server 8000
-   ```
+```bash
+python3 -m http.server 8000
+```
 
-2. Open your browser and navigate to:
-   ```
-   http://localhost:8000/course_recommender.html
-   ```
+Then navigate to `http://localhost:8000/course_recommender.html`
 
-### Option 2: Using Node.js
+## Difficulty Scoring
 
-1. Install a simple server:
-   ```bash
-   npm install -g http-server
-   ```
+Courses are scored 1-5 using a weighted rubric:
+- **AI/ML Knowledge** (40%)
+- **Domain Specialization** (25%)
+- **Python Proficiency** (15%)
+- **System Complexity** (15%)
+- **Theoretical Depth** (5%)
 
-2. Run the server:
-   ```bash
-   http-server -p 8000
-   ```
-
-3. Open `http://localhost:8000/course_recommender.html`
-
-## Updating Course Data
-
-To refresh the course data from DeepLearning.AI:
-
-1. Install dependencies:
-   ```bash
-   uv venv
-   uv pip install requests beautifulsoup4
-   ```
-
-2. Run the scraper:
-   ```bash
-   uv run scrape_short_courses.py
-   ```
-
-3. Convert CSV to JSON:
-   ```bash
-   uv run convert_csv_to_json.py
-   ```
-
-## Recommendation Algorithm
-
-The app uses a scoring system that considers:
-
-1. **Python Experience** (0-100 points)
-   - Beginners → Python courses or no-code options
-   - Advanced → Specialized technical courses
-
-2. **Learning Goals** (0-80 points)
-   - Matches course content to stated objectives
-   - Prioritizes hands-on vs. theoretical based on preferences
-
-3. **Tool Preferences** (0-60 points per tool)
-   - Matches courses featuring selected frameworks
-   - Considers partner organizations
-
-4. **Time Commitment** (0-30 points)
-   - Filters by course duration
-   - Respects user's available time
-
-5. **Difficulty Alignment** (0-20 points)
-   - Matches beginner/intermediate courses to skill level
-
-The top 3 courses are recommended with explanations for why they match.
+See `SCORING_RUBRIC.md` for the complete methodology.
 
 ## Design
 
-The UI matches DeepLearning.AI's official course platform aesthetic:
-- Clean white cards on light gray background (#f5f7fa)
-- Professional red accent color (#ef4444) matching "Start Learning" button
-- Modern sans-serif typography
-- Subtle shadows and clean borders
-- Orange/amber badges matching "Short Course" style
-- Minimal, professional design with excellent readability
-
-## Browser Support
-
-- Chrome/Edge (latest)
-- Firefox (latest)
-- Safari (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
+UI matches DeepLearning.AI's aesthetic:
+- Clean white cards on #f5f7fa background
+- Red accent color (#ef4444)
+- Color-coded difficulty badges (Green/Blue/Yellow/Orange/Red)
+- Partner logos and course metadata
 
 ## License
 
-This is a demonstration project for course recommendation. Course data is scraped from DeepLearning.AI's public website.
+Demonstration project. Course data scraped from DeepLearning.AI's public website.
